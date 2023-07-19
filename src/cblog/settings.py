@@ -87,7 +87,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'clarusway', # database name in RDS is written here
         'USER': 'admin', # database master username in RDS is written here
-        'PASSWORD': config('PASSWORD'),
+        'PASSWORD': 'Pl123456789',
         'HOST': 'cstkrstk.coy1fguugil2.us-east-1.rds.amazonaws.com',  # database endpoint is written here
         'PORT': '3306' # database port is written here
     }
